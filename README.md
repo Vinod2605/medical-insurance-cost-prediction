@@ -18,17 +18,17 @@ Predicting a person's medical insurance charges from age, BMI, smoking status an
 
 ## Charts
 
-**1. BMI vs Insurance Charges**
+**1. BMI vs Insurance Charges** : 
 Charges tend to rise with BMI, but the points are widely spread. BMI alone is a weak predictor.
 
 ![BMI vs Insurance Charges](images/insurance_bmi_vs_charges.png)
 
-**2. Charges by Smoking Status**
+**2. Charges by Smoking Status** : 
 Smokers pay far more. The median charge is about $34,700 for smokers and $7,300 for non-smokers.
 
 ![Charges by Smoking Status](images/insurance_charges_by_smoker.png)
 
-**3. Model Comparison**
+**3. Model Comparison** : 
 The Polynomial models have the highest Test R² (0.79).
 
 ![Model Comparison](images/insurance_model_comparison.png)
